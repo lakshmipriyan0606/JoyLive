@@ -14,9 +14,18 @@
   --secondary-color: #ee5007;
 }
 
+
+#bout,
+#artist,
+#schedule,
+#price,
+#contact{
+  scroll-behavior: smooth;
+}
+
 /***** greeting *****/
 .greeting {
-  background-color: #f8cb2e;
+  transition: all 700ms ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +64,7 @@ video {
 /***** nav *****/
 
 nav {
+  transition: all 300ms ;
   position: fixed;
   top: 0;
   left: 0;
@@ -64,7 +74,6 @@ nav {
   padding: 10px;
   align-items: center;
   justify-content: space-around;
-  background-color:#f8cb2e ;
 }
 
 nav h1 {
